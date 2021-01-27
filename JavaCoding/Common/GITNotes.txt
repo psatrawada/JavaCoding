@@ -35,16 +35,21 @@ git pull origin master
 Now do your coding in Java files  in your timezone, Once you finish the code changes you need to do below
 git status - will give list of files modified
 git add * - move files to staging
-git commit -m “ committed in my time”
+git commit -m â€œ committed in my timeâ€�
 git push origin master
 
 =====================================
-If you get fatal error that means you are already into the logged into remote server so you don’t need to specify it. otherwise use below command to set url
+If you get fatal error that means you are already into the logged into remote server so you donâ€™t need to specify it. otherwise use below command to set url
 $git remote set-url origin https://github.com/psatrawada/MavenJava.git
 
 git remote -v
 Push the changes in your local repository to GitHub.
 $ git push origin master
 ----------------------------------------------------------------------
-You want to get someone else’s code from GITHUB to your local repository for the FIRST time, from  CLI go to your project location- C:\Users\dsatr\git-porkodi\  and do CLONING one time.
+You want to get someone elseâ€™s code from GITHUB to your local repository for the FIRST time, from  CLI go to your project location- C:\Users\dsatr\git-porkodi\  and do CLONING one time.
 git clone https://github.com/psatrawada/Demo.git  
+
++++++++++++++++++++++
+Watch this youtube to see how to upload eclipse Java project to github
+https://www.youtube.com/watch?v=LPT7v69guVY&t=508s
+++++++++++++++++++++++++++++++++++
