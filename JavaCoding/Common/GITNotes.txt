@@ -1,11 +1,39 @@
 
 GIT- psatrawada@gmail.com
-
++++++++++++++++++++++
+Watch this youtube to see how to upload eclipse Java project to github
+https://www.youtube.com/watch?v=LPT7v69guVY&t=508s
+++++++++++++++++++++++++++++++++++
 Setup GIT Remote:To Push the code to remote repository:
 https://github.com/psatrawada
-Go to above link and create New Repository and give a name: JavaInterview
-Setup GIT Local:
-Dowload the GIT for windows(CLI)
+Go to above link and create New Repository and give a name: TestingCoding
+==================================================================
+Steps To configure Java Project from Eclipse and then uploading to GIT
+
+Open the "GITRepositories" perspective view from "search bar"
+Click on icon it says "Clone GITrepository and add the clone to this view"
+In the URL: "Copy the newly created GIT repo url" -https://github.com/psatrawada/TestingCoding.git 
+And then it will refill everything automatically, it might ask for GIT username and password
+Click Next and Finish
+
+Follow the youtube video to setup for any clarification
++++++++++++++++++++++++++++++++++
+Steps for JavaProject and uploading to GIT in eclipse:
+1. From Package Explorer view -> Rt. click -> New Java Project -> Give project name "TestingCoding"
+2. It will create Project name wth "src" folder
+3. If you already have java package in your local folder - copy or drag it under source folder
+4. Make sure you can run a java file without any errors
+Right click on the Java project("TestingCoding") -> Team -> share project -> 
+Configure GIT repo window will popup
+uncheck "use"
+click on "Repository" dropdown
+Select your newly created git remote project and click Finish
+Right click on the Java project("TestingCoding") -> Team -> commit
+In the GIT view->move from unstaged to staged and commit and push
+Go to GIT webview and check all your changes are reflecting
+
+==================================================================
+Dowload the GIT for windows(CLI) and Setup GIT Local:
 1. From cmd go to windows directory check C:\Users\psatr\JavaInterview>git --version
 2. $ git init  (Initialize the local directory as a Git repo)
 $ git status
@@ -49,7 +77,3 @@ $ git push origin master
 You want to get someone elseâ€™s code from GITHUB to your local repository for the FIRST time, from  CLI go to your project location- C:\Users\dsatr\git-porkodi\  and do CLONING one time.
 git clone https://github.com/psatrawada/Demo.git  
 
-+++++++++++++++++++++
-Watch this youtube to see how to upload eclipse Java project to github
-https://www.youtube.com/watch?v=LPT7v69guVY&t=508s
-++++++++++++++++++++++++++++++++++
