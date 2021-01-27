@@ -1,4 +1,4 @@
-package StringManipulations;
+package InterviewQuestions;
 
 public class SwappingNumbers {	
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package InterviewQuestions;
+package StringManipulations;
 
 public class ReverseStringPalindrome {
 	
