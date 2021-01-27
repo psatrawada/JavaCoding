@@ -1,5 +1,5 @@
+//Given an array nums of n integers and an integer target,
 package InterviewQuestions;
-
 import java.util.ArrayList;
 
 public class UniqueNoArray {
