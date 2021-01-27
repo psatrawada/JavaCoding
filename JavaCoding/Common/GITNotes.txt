@@ -1,0 +1,50 @@
+
+GIT- psatrawada@gmail.com
+
+Setup GIT Remote:To Push the code to remote repository:
+https://github.com/psatrawada
+Go to above link and create New Repository and give a name: JavaInterview
+Setup GIT Local:
+Dowload the GIT for windows(CLI)
+1. From cmd go to windows directory check C:\Users\psatr\JavaInterview>git --version
+2. $ git init  (Initialize the local directory as a Git repo)
+$ git status
+3. $ git add * (or) git add <foldername/filename)
+4. $ git commit -m "first commit"
+5. $ git remote -v
+6. $ git remote add origin https://github.com/psatrawada/JavaInterview.git 
+	(In the Command prompt, add the URL for the remote repository where your local repository will be pushed)
+7. $ git push -u origin master ( push all local code to Remote Git repo)
+8. git status
++++++++++++++++++++++++++
+After few weeks are editing your code then follow this instuctions:
+1. From cmd go to windows directory check C:\Users\psatr\JavaInterview>git --version
+2. git init (reinitialize git)
+3. git status
+4. add/edit some files in your folder/eclipse
+5. git status - it should show modified files'
+6. git add *
+7. git commit -m "comment"
+8. git push -u origin master
+9. git status
++++++++++++++++++++++++++++++++
+Later you need to just pull and push :
+To take latest changes on the code after first cloning:
+Fetch and merge changes on the remote server to your working directory:
+git pull origin master
+Now do your coding in Java files  in your timezone, Once you finish the code changes you need to do below
+git status - will give list of files modified
+git add * - move files to staging
+git commit -m “ committed in my time”
+git push origin master
+
+=====================================
+If you get fatal error that means you are already into the logged into remote server so you don’t need to specify it. otherwise use below command to set url
+$git remote set-url origin https://github.com/psatrawada/MavenJava.git
+
+git remote -v
+Push the changes in your local repository to GitHub.
+$ git push origin master
+----------------------------------------------------------------------
+You want to get someone else’s code from GITHUB to your local repository for the FIRST time, from  CLI go to your project location- C:\Users\dsatr\git-porkodi\  and do CLONING one time.
+git clone https://github.com/psatrawada/Demo.git  
