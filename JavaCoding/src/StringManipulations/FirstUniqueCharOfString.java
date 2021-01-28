@@ -1,23 +1,30 @@
 package StringManipulations;
-import java.util.ArrayList;
+import java.util.HashMap;
 
 public class FirstUniqueCharOfString {
 	public static void main(String[] args) {
-		String s = "Hello world And Hello Java";
+		String s = "Hello world and Hello Java"; //ans=w
 		int n = s.length();
-		//char letter = printFirstUniqueChar(s,n);
-		//System.out.println("The first unique alphabet is: " + letter);
-		System.out.println("The first unique alphabet is: " + printFirstUniqueChar(s,n));
+		printFirstUniqueChar(s,n);
 	}
-	public static char printFirstUniqueChar(String s, int n) {
+	
+	public static void printFirstUniqueChar(String s, int n) {
 		char[] ca = s.toCharArray();
-		ArrayList<Character> alist = new ArrayList<Character>();
-		for(int i=0; i<n; i++) {
-			if(!alist.contains(ca[i])) {
-				alist.add(ca[i]);								
+		HashMap<Character,Integer> hmap1 = new HashMap<Character,Integer>();
+		
+		for(char c: ca) {
+			if(hmap1.containsKey(c)) {
+				hmap1.put(c, hmap1.get(c)+1);								
+			}	
+			else{
+				hmap1.put(c,1);				
 			}			
 		}
-		//System.out.println(alist.get(0));
-		return(alist.get(0));
+		System.out.println("Count of each character: " + hmap1);
+        for (int i = 0; i < n; i++) {
+            if (hmap1.get(s.charAt(i)) == 1) 
+            	System.out.println("Index "+ i+ " has Unique char: "+s.charAt(i));
+            	//System.out.println(s.charAt(i));
+        }
 	}
 }

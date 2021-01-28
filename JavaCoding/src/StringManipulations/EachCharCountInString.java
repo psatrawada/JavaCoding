@@ -9,17 +9,17 @@ public class EachCharCountInString {
 		printCharCount(s1);
 	}
 	public static void printCharCount(String s) {
-		HashMap<Character, Integer>charCount = new HashMap<Character, Integer>();
+		HashMap<Character, Integer>hmap1 = new HashMap<Character, Integer>();
 		char[] ca = s.toCharArray();
 		for(char k : ca) {
-			if(charCount.containsKey(k)) {
-				charCount.put(k, charCount.get(k)+1);
+			if(hmap1.containsKey(k)) {
+				hmap1.put(k, hmap1.get(k)+1);
 			}		
 			else {
-				charCount.put(k,1);
+				hmap1.put(k,1);
 			}
 		}
-		System.out.println(charCount);
+		System.out.println(hmap1);
 	}
 
 }
