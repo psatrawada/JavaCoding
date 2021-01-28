@@ -24,7 +24,6 @@ public class FirstUniqueCharOfString {
         for (int i = 0; i < n; i++) {
             if (hmap1.get(s.charAt(i)) == 1) 
             	System.out.println("Index "+ i+ " has Unique char: "+s.charAt(i));
-            	//System.out.println(s.charAt(i));
         }
 	}
 }
