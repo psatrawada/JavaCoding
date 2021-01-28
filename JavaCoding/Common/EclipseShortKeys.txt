@@ -1,2 +1,36 @@
+https://dzone.com/articles/top-30-eclipse-keyboard-shortcuts-for-java-program-1
+
+Ctrl+Shift+L to view the listing for all Eclipse keyboard shortcuts
+
 Run - ctrl+fn+F11
-Fromatting java code - ctrl +shft +F
+Ctrl + Shift + T for finding class even from jar 
+Ctrl + Shift + R for finding any resource (file), including config XML files
+
+Ctrl + 1 for quick fix(can fix up an error- missing declaration, missing semi-colon, or any import related error,)
+Select text and press Ctrl + Shift + F for formatting.
+
+Go to a type declaration: F3, this Eclipse shortcut is very useful to see function definition very quickly.
+
+Eclipse Shortcut for Editing Code
+These Eclipse shortcuts are very helpful for editing code in Eclipse:
+
+5) Ctrl + / for commenting, uncommenting lines and blocks
+
+6) Ctrl + Shift + / for commenting, uncommenting lines with block comment, see here for example.
+
+8) Selecting class and pressing F4 to see its Type hierarchy
+
+10) Ctrl + F4 or Ctrl + w for closing current file
+
+11) Ctrl+Shirt+W for closing all files.
+
+14) Ctrl + l go to line
+
+
+
+17) Ctrl + F for find, find/replace
+
+18) Ctrl + D to delete a line
+
+19) Ctrl + Q for going to last edited place
+
