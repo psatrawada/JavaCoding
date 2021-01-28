@@ -12,13 +12,13 @@ public class Anagram {
 	
 	public static void checkAnagram(String x, String y) {
 		if(x.length() == y.length()) {
-			char[] cArray1 = x.toCharArray();
-			char[] cArray2 = y.toCharArray();
+			char[] ca1 = x.toCharArray();
+			char[] ca2 = y.toCharArray();
 			
-			Arrays.sort(cArray1);
-			Arrays.sort(cArray2);
+			Arrays.sort(ca1);
+			Arrays.sort(ca2);
 			
-			boolean result = Arrays.equals(cArray1, cArray2);
+			boolean result = Arrays.equals(ca1, ca2);
 			
 			if(result){
 				System.out.println(x + " AND " + y + " is Anagram");
