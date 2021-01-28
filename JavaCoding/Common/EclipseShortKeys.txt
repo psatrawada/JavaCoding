@@ -1,0 +1,2 @@
+Run - ctrl+fn+F11
+Fromatting java code - ctrl +shft +F
