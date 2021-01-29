@@ -5,27 +5,23 @@
 //Input: str = "765028321", n = 5 Output: "0221"
 package InterviewQuestions;
 
-import java.util.ArrayList;
-
 public class RemoveDigits {
 	public static void main(String[] args) {
-		String s = "3435631";
-		int target = 3;
-				
+		String s = "34353631";
+		char target = '3';				
 		int n = s.length();
 		removeKdigits(s, n, target);
 	}
 
-	public static void removeKdigits(String s, int n, int target) {
-		//ArrayList<Integer> result = new ArrayList<Integer>();
-		
+	public static void removeKdigits(String s, int n, char target) {
+		String result = "";
 		for(int i=0; i<n; i++) {
-			if(s.charAt(i) == 3) {
-				System.out.println(s.charAt(i));
-				
-				
-			}
+				if(!(s.charAt(i)== target)){
+					result += s.charAt(i);					
+				}				
 		}
+		System.out.println("String \""+ s+ "\" without the digit " + target+ " is: "+result);
 	}
 
 }
+

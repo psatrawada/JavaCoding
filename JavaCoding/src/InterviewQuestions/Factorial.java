@@ -1,5 +1,5 @@
 package InterviewQuestions;
-
+//using recursive method
 public class Factorial {
 	public static void main(String[] args) {
 		System.out.println("Factorial of "+ 5 + ": "+ factorialOf(5));
