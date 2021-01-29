@@ -6,7 +6,7 @@ public class SwappingNumbers {
 		int y = 33;		
 		System.out.println("Before swapping x=" +x +" y= "+y);	
 		swapWithoutTemp(x,y);
-		swapWithoutTemp(x,y);
+		swapWithTemp(x,y);
 	}
 	public static void swapWithoutTemp(int a, int b) {
 		a = a+b;

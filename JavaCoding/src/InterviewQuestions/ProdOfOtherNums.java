@@ -3,8 +3,8 @@ import java.util.Arrays;
 // Input list  [1,2,3,4] should return output [24,12,8,6]
 public class ProdOfOtherNums {
 	public static void main(String[] args) {
-		int[] a = { 6, 3, 4, 2,0 };
-		int[] a1 = {1,2,3,4};
+		int[] a = { 1, 3, 4, 2,0 };
+		int[] a1 = {1,2,3,5};
 		int n = a.length;
 		int n1 = a1.length;
 		findProduct(a, n);

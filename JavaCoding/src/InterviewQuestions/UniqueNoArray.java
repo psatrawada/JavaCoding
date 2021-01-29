@@ -6,7 +6,7 @@ import java.util.ArrayList;
 public class UniqueNoArray {
 
 	public static void main(String[] args) {
-		int a[] = { 4, 5, 6, 5, 5, 6, 7, 4, 3 };
+		int[] a = { 4, 5, 6, 5, 5, 6, 7, 4, 3 };
 		int n = a.length;
 		printUniqueInt(a,n);		
 	}
