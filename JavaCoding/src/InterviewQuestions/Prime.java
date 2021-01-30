@@ -2,7 +2,13 @@ package InterviewQuestions;
 import java.util.ArrayList;
 
 public class Prime {	
-	static int n = 52;
+	public static void main(String[] args) {	
+		int n = 13;		
+    	System.out.println("Given num: "+n + " is prime: "+ isPrime(n));
+		System.out.println("List of prime numbers up to "+n +" is :"+ printAllPrime(n));		
+		System.out.println("The next prime no: "+ Prime.nextPrime(n));
+
+	}
 	
 	//To find the next prime number
 	private static int nextPrime(int num) {
@@ -25,7 +31,7 @@ public class Prime {
     return true;        
     }	
 	//print prime nos in arraylist
-	private static  ArrayList<Integer> printAllPrime() {
+	private static  ArrayList<Integer> printAllPrime(int n) {
 	ArrayList<Integer> plist = new ArrayList<Integer>();
 		for (int i =1; i<=n; i++) {
 			if(Prime.isPrime(i))
@@ -33,12 +39,7 @@ public class Prime {
 		}
     return plist;        
     }	
-	public static void main(String[] args) {				
-    	System.out.println("Given num: "+n);
-		System.out.println("all prime numbers: "+ printAllPrime());		
-		System.out.println("The next prime no: "+ Prime.nextPrime(n));
-
-	}
+	
 
 	
 }
