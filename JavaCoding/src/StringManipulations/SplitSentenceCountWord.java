@@ -22,8 +22,8 @@ public class SplitSentenceCountWord {
 				hmap1.put(s,1);			
 		}
 		System.out.println(hmap1);
-		System.out.println("This occured "+hmap1.get("this")+ " times");
-		System.out.println("is occured "+hmap1.get("is")+ " times");
+		System.out.println("Hello occured "+hmap1.get("Hello")+ " times");
+		System.out.println("Java occured "+hmap1.get("Java")+ " times");
 		
 	}
 
