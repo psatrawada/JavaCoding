@@ -5,15 +5,15 @@
 //Input: str = "765028321", n = 5 Output: "0221"
 package InterviewQuestions;
 
-public class RemoveDigits {
+public class RemoveTargetDigit{
 	public static void main(String[] args) {
 		String s = "34353631";
 		char target = '3';				
 		int n = s.length();
-		removeKdigits(s, n, target);
+		removeTDigit(s, n, target);
 	}
 
-	public static void removeKdigits(String s, int n, char target) {
+	public static void removeTDigit(String s, int n, char target) {
 		String result = "";
 		for(int i=0; i<n; i++) {
 				if(!(s.charAt(i)== target)){
