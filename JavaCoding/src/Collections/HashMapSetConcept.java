@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
-public class HashMapSetIteratorConcept {
+public class HashMapSetConcept {
 	
 	public static void main(String[] args) {
 		hashMapWorks();		
@@ -31,11 +31,9 @@ public class HashMapSetIteratorConcept {
 		}
 		System.out.println("The value of kite_key is " + hmap1.get("kite"));
 		
-		Set st = hmap1.entrySet();
-		
-		Iterator i = st.iterator();
-		
-		System.out.println("Iterating the map values");
+		System.out.println("Iterating the map values using Iterator");
+		Set st = hmap1.entrySet();		
+		Iterator i = st.iterator();			
 		while(i.hasNext()) {
 			Map.Entry me = (Map.Entry)i.next();
 			//Map.Entry<String, Integer> me = i.next();
