@@ -22,9 +22,7 @@ public class HashMapWithUserObjects {
 		System.out.println("Print all values in map1:  "+hmap1.values());	
 	
 		System.out.println("Print all Keys in map2 "+hmap2.keySet());	
-			
-		
-		
+				
 	}
 
 	
