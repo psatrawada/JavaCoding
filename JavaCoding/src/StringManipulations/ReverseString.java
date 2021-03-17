@@ -5,12 +5,13 @@ public class ReverseString {
 	public static void main(String[] args) {
 		
 		String s = "Hello World";
-		reverse(s);
+		int n = s.length();
+		reverse(s,n);
 		
 	}
-	public static void reverse(String input ){
+	public static void reverse(String input, int n ){
 		String output = "";
-		for(int i=input.length()-1;i>=0; i--) {
+		for(int i=n-1;i>=0; i--) {
 			output += input.charAt(i);			
 		}		
 		System.out.println(input+": is Reversed To: " +output);
