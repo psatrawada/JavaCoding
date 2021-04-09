@@ -7,10 +7,11 @@ package InterviewQuestions;
 
 public class RemoveTargetDigit{
 	public static void main(String[] args) {
-		String s = "34353631";
+		String s = "343dd3";
 		char target = '3';				
 		int n = s.length();
 		removeTDigit(s, n, target);
+		sumOfString(s,n);
 	}
 
 	public static void removeTDigit(String s, int n, char target) {
@@ -22,6 +23,15 @@ public class RemoveTargetDigit{
 		}
 		System.out.println("String \""+ s+ "\" without the digit " + target+ " is: "+result);
 	}
-
+	public static void sumOfString(String s, int n) {
+		int sum = 0;
+		for(int i =0; i<n; i++) {
+			if(Character.isDigit(s.charAt(i)))				
+				sum +=  Integer.parseInt(String.valueOf(s.charAt(i)));
+			
+				System.out.println(sum);				
+			
+		}
+	}
 }
 
