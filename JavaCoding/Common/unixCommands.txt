@@ -1,0 +1,26 @@
+
+mkdir — Create a directory.
+rmdir — Remove directory
+chmod — Sets the file permissions flag on a file or folder
+pwd — Print working directory.
+cd — Change directory
+ls — List directory contents. eg: ls *.txt
+
+mv oldfile.txt newfile.txt
+cp — copy files and directories
+echo — Prints text to the terminal window.
+touch — Creates a file.
+tail — Read the end of a file
+
+grep — search command,  Syntax: grep [option(s)] pattern [file(s)] , eg: grep 'click' *.txt
+
+man — Print manual or get help for a command.
+history — list your most recent commands
+
+kill — terminate stalled processes
+sleep — delay a process for a specified amount of time
+
+//Custom commands in Bash are known as “aliases
+// Syntax: alias alias_name = “command_to_run”
+alias c = “clear”
+alias chrome = ‘/opt/google/chrome/chrome’
